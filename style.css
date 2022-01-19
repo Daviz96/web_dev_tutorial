@@ -2,6 +2,11 @@ body {
     background: #eee;
 }
 
+.animate {
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
 .header {
     background: #333;
 }
@@ -72,6 +77,13 @@ Smartphone
         width: 100%;
         height: 0;
         overflow: hidden;
+    }
+    .header_menu_item {
+        display: block;
+    }
+    .is_open {
+        height: 300px;
+        overflow: auto;
     }
 }
 
